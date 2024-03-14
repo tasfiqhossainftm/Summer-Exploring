@@ -1,0 +1,614 @@
+body{
+    line-height: 1.5rem;
+    margin: 0;
+}
+.header-area{
+    width: 100%;
+    clear: both;
+}
+.header-area img{
+    padding: 15px 0;
+    width: 81px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 72px;
+    display: flex;
+    float: left;
+
+    
+}
+#top-header{
+    
+    padding: 15px 0;
+    width: 100%;
+
+}
+.inner-top-header{
+    overflow: hidden;
+    margin-top: 35px;
+}
+.mini-menu{
+    float: left;
+    width: 70%;
+}
+.search-area{
+    float: right;
+    width: 30%;
+}
+.mini-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    
+}
+.mini-menu ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.mini-menu ul li a{
+    color: #54524f;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.mini-menu ul li a:hover{
+    color: orange;
+    transition-duration: 0.7s;
+    box-shadow: 2px 4px 6px; 
+    
+}
+.search-area form{
+    float: left;
+    width: 98%;
+    padding: 2%;
+    max-width: 210px;
+  
+    border-radius: 25px;
+}
+
+.search-area input{
+    border: 0px solid;
+    width: 75%;
+    padding: 1%;
+    float: left;
+   
+   
+}
+
+.search-area input[type="submit"]{
+    background: url(images/search-button.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+    width: 23%;
+    
+}
+
+.hero-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.title h1{
+    width: 545px;
+    height: 180px;
+    font-size: 62px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -520px;
+    margin-left: 90px;
+}
+
+.sub-title p{
+    width: 325px;
+    height: 24px;
+    font-size: 16px;
+    margin-top: -110px;
+    margin-left: 95px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.read{
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 95px;
+    margin-top: 85px;
+    text-transform: uppercase;
+}
+
+.read:hover{
+    box-shadow: 2px 4px 6px ;
+    transition-duration: 0.8s;
+    
+}
+
+.lorem p{
+    width: 474px;
+    height: 85px;
+    margin-left: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.background{
+    margin-top: 220px;
+    width: 100%;
+    text-align: center;
+}
+
+.letsgo {
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    margin-left: 280px;
+    color: orange;
+    font-size: 30px;
+}
+
+.letsgo p{
+    color: #54524f;
+
+}
+.experience{
+    display: flex;
+    float: left;
+    margin-left: 90px;
+    width: 1075px;
+    height: 435px;
+    margin-top: 120px;
+    
+}
+.image-one{
+    width: 345px;
+    height: 535px;
+}
+.image-one img{
+    width: 250px;
+    height: 250px;
+}
+.image-one p{
+    width: 250px;
+    height: 100px;
+    margin-left: 47px;
+    background-color: #54524f;
+    margin-top: -10px;
+    padding-top: 30px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.image-two{
+    width: 344px;
+    height: 535px;
+}
+.image-two img{
+    width: 250px;
+    height: 250px;
+}
+.image-two p{
+    width: 250px;
+    height: 100px;
+    margin-left: 47px;
+    background-color: #54524f;
+    margin-top: -10px;
+    padding-top: 30px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.image-three{
+    width: 344px;
+    height: 535px;
+}
+.image-three img{
+    width: 250px;
+    height: 250px;
+}
+.image-three p{
+    width: 250px;
+    height: 100px;
+    margin-left: 47px;
+    background-color: #54524f;
+    margin-top: -10px;
+    padding-top: 30px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.show-more{
+    margin-bottom: 20px;
+    border: none;
+    background-color: #54524f;
+    border-radius: 20px;
+    width: 210px;
+    height: 40px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.show-more:hover{
+   
+    transition-duration: 0.8s;
+    box-shadow: 2px 4px 4px black;
+}
+
+.background-one{
+    background-color: #7f7770;
+    width: 100%;
+    height: 700px;
+
+}
+
+.background-one .discount-image img{
+    width: 52%;
+    height: 700px;
+}
+
+.discount h1{
+    width: 500px;
+    height: 130px;
+    font-size: 45px;
+    margin-left: 700px;
+    margin-top: -500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.discount p{
+    font-size: 20px;
+    width: 420px;
+    height: 120px;
+    margin-left: 700px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.read-one{
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 700px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    background-color: #e2a355;
+    color: white;
+}
+
+.read-one:hover{
+    box-shadow: 2px 4px 6px orange;
+    transition-duration: 0.8s;
+    
+}
+
+.background-two{
+    background-color: #deb37e;
+    width: 100%;
+    height: 700px;
+
+}
+
+.background-two .journey-image img{
+    width: 48%;
+    height: 700px;
+    margin-left: 52%;
+}
+
+.journey h1{
+    width: 460px;
+    line-height: 50px;
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: -500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.journey p{
+    font-size: 20px;
+    width: 420px;
+    height: 120px;
+    margin-left: 90px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.read-two{
+    width: 200px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    margin-left: 90px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    background-color: #e2a355;
+    color: white;
+}
+
+.read-two:hover{
+    box-shadow: 2px 4px 6px orange;
+    transition-duration: 0.8s;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.background-three{
+    background-color: #99928d;
+    width: 100%;
+    height: 512px;
+}
+
+.background-three img{
+    height: 140px;
+    width: 100%;
+    
+}
+
+.background-three{
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+
+.background-three p{
+    width: 500px;
+    margin-left: 360px;
+    
+}
+
+.text{
+    margin-top: 100px;
+}
+
+.explore-image img{
+    width: 100%;
+    
+}
+
+.two img{
+    margin-top: -100px;
+    width: 100%;
+    height: 200px;
+}
+
+.explore-image{
+    height: 900px;
+    width: 100%;
+    background-image: url(images/explore.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.text-two{
+    font-size: 40px;
+    width: 300px;
+    line-height: 40px;
+    margin-left: 800px;
+    text-align:end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #54524f;
+    margin-top: 170px;
+    
+}
+
+span{
+    color: #deb37e;
+}
+
+.three img{
+    width: 100%;
+    margin-top: 450px;
+}
+
+.lorem-ipsum{
+    
+    margin-left: 10%;
+    width: 90%;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.lorem-ipsum-one{
+    margin-top: 80px;
+    width: 330px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lorem-ipsum-one h1{
+    color: #e2a355;
+}
+
+.lorem-ipsum-two{
+    margin-top: 80px;
+    width: 330px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lorem-ipsum-two h1{
+    color: #e2a355;
+}
+
+.lorem-ipsum-three{
+    margin-top: 80px;
+    width: 330px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lorem-ipsum-three h1{
+    color: #e2a355;
+}
+
+.dolor{
+    width: 530px;
+    height: 340px;
+    text-align: center;
+    margin-left: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 180px;
+}
+
+.orange-background{
+    background-color: #deb37e;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    
+}
+.orange-background-one{
+    margin-top: 140px;
+}
+.orange-background p{
+    background-color: #deb37e;
+    width: 680px;
+    margin-left: 260px;
+    
+    text-align: center;
+}
+
+.orange-background img{
+ 
+    width: 100%;
+    height: 100px;
+}
+
+.btn-one input{
+    background: none;
+    border: none;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+.subscribe{
+    background: none;
+    border: none;
+    background-color: #7f7770;
+    border-radius: 20px;
+    width: 130px;
+    height: 30px;
+    color: aliceblue;
+}
+
+.subscribe:hover{
+    box-shadow: 3px 3px 5px #99928d;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.footer{
+    background-color: #54524f;
+    width: 100%;
+    height: 540px;
+    color: aliceblue;
+
+}
+
+.footer img{
+    
+    width: 100%;
+    height: 200px;
+    margin-top: -100px;
+}
+
+.footer .title-here{
+    width: 300px;
+    text-align: justify;
+    margin-left: 90px;
+    margin-top: 120px;
+}
+
+.footer-one{
+    display: flex;
+    margin-left: 500px;
+    gap: 80px;
+    margin-top: -175px;
+}
+.about h1{
+    margin-left: 37px;
+}
+
+.about ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+.about ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.services h1{
+    margin-left: 37px;
+}
+
+.services ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+.services ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.other h1{
+    margin-left: 37px;
+}
+
+.other ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    
+}
+
+.other ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.social-area ul li{
+    display: inline-block;
+    margin-left: 42px;
+    font-size: 30px;
+    
+    
+}
+
+.social-area ul li a{
+    
+    display: block;
+}
+
+.social-area ul li a i{
+    
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #827a73;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 4px;
+    
+}
